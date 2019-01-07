@@ -44,3 +44,84 @@
   font-style: oblique;
   font-family: Arial, Helvetica, sans-serif;
   }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=text], input[type='password'], select {
+    width: 100%;
+    padding: 11px 11px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: larger;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  button {
+    background-color: #409ce0; 
+    color: white; 
+    border: 2px solid white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  button:focus {
+    outline: none;
+  }
+
+  .roundedButton{
+  border-radius: 6px;
+  }
+
+  .noBorder {
+    border: none !important; 
+  }
+    
+#linkToList {
+  margin-top: 16px;
+}
+
+.viewProduct{ 
+  width: 100%;
+  padding: 10px;
+  margin: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: white;
+  word-wrap: break-word;
+}
