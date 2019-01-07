@@ -13,7 +13,7 @@ class Home extends Component {
             inputNameText: '',
             inputBrandText: '',
             inputPriceText: '',
-            searchResult:[],
+            searchResult: [],
         }
     }
     handleInputSearchChange(evt) {
@@ -29,7 +29,7 @@ class Home extends Component {
         axios.get(remoteBackendURL + '/products' + query)
             .then((res) => {
                 console.log(res);
-                this.setState({ searchResult: res.data});
+                this.setState({ searchResult: res.data });
             })
             .catch((error) => {
                 console.log(error);
